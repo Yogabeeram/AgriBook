@@ -24,7 +24,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "https://agri-book-six.vercel.app/",
+        "https://agri-book-blr3.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
