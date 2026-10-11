@@ -1,6 +1,8 @@
 import { useEffect, useMemo, useState } from 'react';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8001';
+const API_URL =
+  import.meta.env.VITE_API_URL ||
+  "https://agribook-backend.onrender.com";
 
 const defaultFarmerForm = {
   full_name: '',
