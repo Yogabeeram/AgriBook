@@ -23,7 +23,7 @@ app = FastAPI(title="కిషన్ కనెక్ట్ API", version="1.0.0"
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:5173",
+       
         "https://agri-book-blr3.vercel.app",
     ],
     allow_credentials=True,
